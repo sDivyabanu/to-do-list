@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left">
+        <div class="date-display">
+            <div class="date" id="current-date"></div>
+            <div class="month-year">
+                <div class="month">June</div>
+                <div class="year">2021</div>
+            </div>
+        </div>
+        <div class="tasks">
+            <h2>TODAY'S DEADLINES</h2>
+            <ul id="todays-tasks"></ul>
+            <h2>UPCOMING DEADLINES</h2>
+            <ul id="upcoming-tasks">
+                <li>Do something</li>
+                <li>Finish personal project</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="calendar">
+            <div class="calendar-header">
+                <p>June 2021</p>
+            </div>
+            <div class="week">
+                <div class="day">Mo</div>
+                <div class="day">Tu</div>
+                <div class="day">We</div>
+                <div class="day">Th</div>
+                <div class="day">Fr</div>
+                <div class="day">Sa</div>
+                <div class="day">Su</div>
+            </div>
+            <div class="dates"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
